@@ -1,0 +1,2 @@
+docker run --name yudao-mysql -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql
+docker run --name yudao-redis -p 6379:6379 -d redis:7.2.3
